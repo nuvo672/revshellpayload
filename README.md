@@ -30,11 +30,13 @@ In Nuke&Ada, upload the "flash_nuke" firmware, followed by the "adafruit" firmwa
 Navigate to the "HID" directory in this repository.
 Copy all files from the "HID" directory.
 Paste these files into the "lib" directory of your Raspberry Pi Pico.
+
 3. ### Copy Main Files
 
 Navigate to the "main" directory in this repository.
 Copy all files from the "main" directory.
 Paste these files into the default Raspberry Pi Pico folder.
+
 4. ### Your Raspberry Pi Pico is Now Ready!
 
 ## Loading the Reverse Shell Payload
@@ -42,10 +44,12 @@ Paste these files into the default Raspberry Pi Pico folder.
 
 Open a text editor or Notepad.
 Copy the contents of the "revshell.txt" payload script from this repository.
+
 2. ### Customize Your Script
 
 Replace "{Hoaxshell revshell}" with your actual Hoax Shell reverse shell script.
 Adjust DELAY times as needed for your specific use case.
+
 3. ### Save the Payload
 
 Save the file as "payload.dd" in the root directory of your Raspberry Pi Pico.
