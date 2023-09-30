@@ -26,14 +26,14 @@ Paste these files into the root Raspberry Pi Pico folder.
 
 ## Loading the Reverse Shell Payload
 
-Please refer to this repository: [Hoax Shell Reverse Shell Payload][Hoaxshell]
-
 1. ### Prepare Your Payload Script
 
 Open a text editor or Notepad.
 Copy the contents of the "revshell.txt" payload script from this repository.
 
 2. ### Customize Your Script
+
+Please refer to this repository: [Hoax Shell Reverse Shell Payload][Hoaxshell]
 
 Replace "{Hoaxshell revshell}" with your actual Hoax Shell reverse shell script.
 Adjust DELAY times as needed for your specific use case.
