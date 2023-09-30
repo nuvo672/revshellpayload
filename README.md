@@ -11,6 +11,6 @@ grab your reverse shell payload script from hoax shell
 ### Loading revshell
 Copy and paste your revshell.txt payload script into a notepad
 
-Replace {Hoaxshell revshell} with your hoaxshell script
+Replace {Hoaxshell revshell} with your hoaxshell script and adjust DELAY times as needed
 
 Save the file as payload.dd in the pi folder
