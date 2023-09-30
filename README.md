@@ -18,7 +18,7 @@ Paste these files into the "lib" directory of your Raspberry Pi Pico.
 
 Navigate to the "main" directory in this repository.
 Copy all files from the "main" directory.
-Paste these files into the default Raspberry Pi Pico folder.
+Paste these files into the root Raspberry Pi Pico folder.
 
 4. ### Your Raspberry Pi Pico is Now Ready!
 
