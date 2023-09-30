@@ -39,4 +39,4 @@ Adjust DELAY times as needed for your specific use case.
 Save the file as "payload.dd" in the root directory of your Raspberry Pi Pico.
 With these steps completed, your Raspberry Pi Pico is set up as a Rubber Ducky device, and the reverse shell payload is ready to execute when connected to a target system.
 
-For more information and updates, please refer to this repository: [Hoax Shell Reverse Shell Payload][^Hoaxshell]
+For more information and updates, please refer to this repository: [Hoax Shell Reverse Shell Payload][Hoaxshell]
