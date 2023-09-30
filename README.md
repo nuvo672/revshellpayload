@@ -24,6 +24,7 @@ This repository provides a convenient method to set up your Raspberry Pi Pico as
 1. ### Flash Nuke and Adafruit Firmware
 
 In Nuke&Ada, upload the "flash_nuke" firmware, followed by the "adafruit" firmware to your Raspberry Pi Pico.
+
 2. ### Copy HID Files
 
 Navigate to the "HID" directory in this repository.
