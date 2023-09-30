@@ -3,8 +3,6 @@
 # Reverse Shell Payload Setup for Raspberry Pi Pico
 This repository provides a convenient method to set up your Raspberry Pi Pico as a Rubber Ducky device using the Hoax Shell reverse shell payload.
 
-Please refer to this repository: [Hoax Shell Reverse Shell Payload][Hoaxshell]
-
 
 
 ## Setting Up Your Raspberry Pi Pico
@@ -27,6 +25,9 @@ Paste these files into the root Raspberry Pi Pico folder.
 4. ### Your Raspberry Pi Pico is Now Ready!
 
 ## Loading the Reverse Shell Payload
+
+Please refer to this repository: [Hoax Shell Reverse Shell Payload][Hoaxshell]
+
 1. ### Prepare Your Payload Script
 
 Open a text editor or Notepad.
