@@ -10,4 +10,5 @@ grab your reverse shell payload script from hoax shell
 
 ### Loading revshell
 Copy and paste your hoaxshell payload script into a notepad                                                                                                                                                                  
+
 Save the file as payload.dd in the pi folder
