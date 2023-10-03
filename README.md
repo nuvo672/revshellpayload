@@ -1,3 +1,4 @@
+<img src="https://img.shields.io/badge/Developed%20on-kali%20linux-blueviolet">
 ----------------------------------
 [Hoaxshell]: https://github.com/t3l3machus/hoaxshell
 # Reverse Shell Payload Setup for Raspberry Pi Pico
